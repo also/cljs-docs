@@ -40,6 +40,8 @@ https://github.com/clojure/clojurescript/blob/r2030/src/clj/cljs/closure.clj#L96
 
 ### `:optimize-constants`
 
+https://groups.google.com/d/topic/clojurescript/bSFK6CEE3PE/discussion
+
 ### `:static-fns`
 
 ### `:warnings`
