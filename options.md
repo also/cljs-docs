@@ -8,6 +8,8 @@ https://github.com/clojure/clojurescript/blob/r2030/src/clj/cljs/closure.clj#L85
 
 ### `:optimization`
 
+https://developers.google.com/closure/compiler/docs/compilation_levels
+
 `:none`
 
 `:whitespace`
