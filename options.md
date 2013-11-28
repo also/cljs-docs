@@ -1,10 +1,10 @@
 # Compiler Options
 
-Many are visible here: https://github.com/clojure/clojurescript/blob/r2030/src/clj/cljs/closure.clj#L975
+Many are visible here: https://github.com/clojure/clojurescript/blob/r2080/src/clj/cljs/closure.clj#L1041
 
 ## Closure Compiler Options
 
-https://github.com/clojure/clojurescript/blob/r2030/src/clj/cljs/closure.clj#L85-L112
+https://github.com/clojure/clojurescript/blob/r2080/src/clj/cljs/closure.clj#L85-L112
 
 ### `:optimizations`
 
@@ -30,7 +30,7 @@ https://developers.google.com/closure/compiler/docs/compilation_levels
 
 ### `:output-wrapper`
 
-https://github.com/clojure/clojurescript/blob/r2030/src/clj/cljs/closure.clj#L961
+https://github.com/clojure/clojurescript/blob/r2080/src/clj/cljs/closure.clj#L965
 
 ### `:target`
 
@@ -54,7 +54,7 @@ https://github.com/clojure/clojurescript/wiki/Source-maps
 
 http://lukevanderhart.com/2011/09/30/using-javascript-and-clojurescript.html
 
-https://github.com/clojure/clojurescript/blob/r2030/src/clj/cljs/closure.clj#L520
+https://github.com/clojure/clojurescript/blob/r2080/src/clj/cljs/closure.clj#L520
 
 ### `:libs`
 
@@ -70,4 +70,4 @@ https://github.com/clojure/clojurescript/blob/r2030/src/clj/cljs/closure.clj#L52
 
 Default externs should be excluded.
 
-https://github.com/clojure/clojurescript/blob/r2030/src/clj/cljs/closure.clj#L163
+https://github.com/clojure/clojurescript/blob/r2080/src/clj/cljs/closure.clj#L163
