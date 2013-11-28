@@ -36,6 +36,8 @@ https://github.com/clojure/clojurescript/blob/r2030/src/clj/cljs/closure.clj#L96
 
 `:nodejs` ...
 
+### `:hashbang`
+
 ### `:optimize-constants`
 
 ### `:static-fns`
