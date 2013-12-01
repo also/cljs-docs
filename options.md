@@ -32,23 +32,41 @@ https://developers.google.com/closure/compiler/docs/compilation_levels
 
 https://github.com/clojure/clojurescript/blob/r2080/src/clj/cljs/closure.clj#L965
 
-### `:target`
-
-`:nodejs` ...
-
-### `:hashbang`
-
-### `:optimize-constants`
-
-https://groups.google.com/d/topic/clojurescript/bSFK6CEE3PE/discussion
-
 ### `:static-fns`
+
+> It's an option mostly because of REPL development to allow for redefinition. For example if :static-fns true we statically dispatch to specific fn arities - but what if you redef to a different set of arities? What if you change the var to store a deftype instance that implements IFn. That kind of thing.
+
+> So for compilation :static-fns can nearly always be true, but for the REPL it's not desirable.
+
+– https://groups.google.com/d/msg/clojurescript/holhVap5Rjc/f9bUE26waakJ
+
+Implied by `:optimizations :advanced`
+
+`cljs.analyzer/*cljs-static-fns*`
 
 ### `:warnings`
 
 ### `:source-map`
 
 https://github.com/clojure/clojurescript/wiki/Source-maps
+
+### `:optimize-constants`
+
+Implied by `:optimizations :advanced`
+
+Generates `constants_table.js` in the output directory.
+
+https://groups.google.com/d/topic/clojurescript/bSFK6CEE3PE/discussion
+
+## node.js
+
+### `:target`
+
+`:nodejs`
+
+Includes `cljs/nodejs.cljs` and `cljs/nodejscli.cljs`, and adds a hashbang.
+
+### `:hashbang`
 
 ## Library Dependency Options
 
