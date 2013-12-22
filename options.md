@@ -24,6 +24,12 @@ https://developers.google.com/closure/compiler/docs/compilation_levels
 
 ## Other Options
 
+### `:preamble`
+
+### `:closure-defines`
+
+### `:closure-warnings`
+
 ### `:ouput-to`
 
 ### `:output-dir`
